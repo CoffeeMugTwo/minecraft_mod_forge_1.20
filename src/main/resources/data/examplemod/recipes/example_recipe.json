@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeliess",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "examplemod:example_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:diamond",
+        "count": 9
+    }
+
+}
