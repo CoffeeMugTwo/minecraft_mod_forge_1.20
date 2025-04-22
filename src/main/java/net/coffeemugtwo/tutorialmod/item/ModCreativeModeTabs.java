@@ -1,6 +1,7 @@
 package net.coffeemugtwo.tutorialmod.item;
 
 import net.coffeemugtwo.tutorialmod.TutorialMod;
+import net.coffeemugtwo.tutorialmod.block.ModBlocks;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -25,6 +26,8 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                 pOutput.accept(Items.DIAMOND);
+                pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
             })
             .build());
 

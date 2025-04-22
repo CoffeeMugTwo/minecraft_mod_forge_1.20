@@ -6,6 +6,7 @@ import com.mojang.logging.LogUtils;
 
 import com.mojang.logging.LogUtils;
 import net.coffeemugtwo.tutorialmod.item.ModItems;
+import net.coffeemugtwo.tutorialmod.block.ModBlocks;
 import net.coffeemugtwo.tutorialmod.item.ModCreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,6 +36,8 @@ public class TutorialMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
